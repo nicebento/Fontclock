@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D69B33311A02F5C0097F912 /* fontclockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D69B33111A02F5C0097F912 /* fontclockViewController.xib */; };
+		0D69B33411A02F5C0097F912 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D69B33211A02F5C0097F912 /* MainWindow.xib */; };
+		0D69B33B11A02F610097F912 /* fontclockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D69B33711A02F610097F912 /* fontclockAppDelegate.m */; };
+		0D69B33C11A02F610097F912 /* fontclockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D69B33911A02F610097F912 /* fontclockViewController.m */; };
+		0D69B33D11A02F610097F912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D69B33A11A02F610097F912 /* main.m */; };
+		0D69B43A11A04BE90097F912 /* fontclockDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D69B43911A04BE90097F912 /* fontclockDateView.m */; };
+		0D94AC5711A06E2200F313CF /* fontclockDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D94AC5611A06E2200F313CF /* fontclockDateFormatter.m */; };
+		0D94AE6E11A08CCB00F313CF /* fontclockPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D94AE6D11A08CCB00F313CF /* fontclockPrefsController.m */; };
+		0D94B16811A0B60B00F313CF /* bentologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D94B16711A0B60B00F313CF /* bentologo.png */; };
+		0D94B18F11A0B75400F313CF /* fontclockAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D94B18E11A0B75400F313CF /* fontclockAboutController.m */; };
+		0D94B19811A0B7CD00F313CF /* fontclockAboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D94B19711A0B7CD00F313CF /* fontclockAboutController.xib */; };
+		0D94B3F811A0D8C200F313CF /* swatchoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D94B3F611A0D8C200F313CF /* swatchoff.png */; };
+		0D94B3F911A0D8C200F313CF /* swatchon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D94B3F711A0D8C200F313CF /* swatchon.png */; };
+		0D94B4E411A0F63200F313CF /* swatchoff-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D94B4E311A0F63200F313CF /* swatchoff-white.png */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D69B33111A02F5C0097F912 /* fontclockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fontclockViewController.xib; sourceTree = "<group>"; };
+		0D69B33211A02F5C0097F912 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		0D69B33611A02F610097F912 /* fontclockAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockAppDelegate.h; sourceTree = "<group>"; };
+		0D69B33711A02F610097F912 /* fontclockAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockAppDelegate.m; sourceTree = "<group>"; };
+		0D69B33811A02F610097F912 /* fontclockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockViewController.h; sourceTree = "<group>"; };
+		0D69B33911A02F610097F912 /* fontclockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockViewController.m; sourceTree = "<group>"; };
+		0D69B33A11A02F610097F912 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D69B43811A04BE90097F912 /* fontclockDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockDateView.h; sourceTree = "<group>"; };
+		0D69B43911A04BE90097F912 /* fontclockDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockDateView.m; sourceTree = "<group>"; };
+		0D94AC5511A06E2200F313CF /* fontclockDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockDateFormatter.h; sourceTree = "<group>"; };
+		0D94AC5611A06E2200F313CF /* fontclockDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockDateFormatter.m; sourceTree = "<group>"; };
+		0D94AE6C11A08CCB00F313CF /* fontclockPrefsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockPrefsController.h; sourceTree = "<group>"; };
+		0D94AE6D11A08CCB00F313CF /* fontclockPrefsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockPrefsController.m; sourceTree = "<group>"; };
+		0D94B16711A0B60B00F313CF /* bentologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bentologo.png; sourceTree = "<group>"; };
+		0D94B18D11A0B75400F313CF /* fontclockAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontclockAboutController.h; sourceTree = "<group>"; };
+		0D94B18E11A0B75400F313CF /* fontclockAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontclockAboutController.m; sourceTree = "<group>"; };
+		0D94B19711A0B7CD00F313CF /* fontclockAboutController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fontclockAboutController.xib; sourceTree = "<group>"; };
+		0D94B3F611A0D8C200F313CF /* swatchoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swatchoff.png; sourceTree = "<group>"; };
+		0D94B3F711A0D8C200F313CF /* swatchon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swatchon.png; sourceTree = "<group>"; };
+		0D94B4E311A0F63200F313CF /* swatchoff-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "swatchoff-white.png"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Font Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Font Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D69B33011A02F5C0097F912 /* rsrc */ = {
+			isa = PBXGroup;
+			children = (
+				0D94B4E311A0F63200F313CF /* swatchoff-white.png */,
+				0D94B3F611A0D8C200F313CF /* swatchoff.png */,
+				0D94B3F711A0D8C200F313CF /* swatchon.png */,
+				0D94B16711A0B60B00F313CF /* bentologo.png */,
+				0D69B33111A02F5C0097F912 /* fontclockViewController.xib */,
+				0D94B19711A0B7CD00F313CF /* fontclockAboutController.xib */,
+				0D69B33211A02F5C0097F912 /* MainWindow.xib */,
+			);
+			path = rsrc;
+			sourceTree = "<group>";
+		};
+		0D69B33511A02F610097F912 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0D94B18D11A0B75400F313CF /* fontclockAboutController.h */,
+				0D94B18E11A0B75400F313CF /* fontclockAboutController.m */,
+				0D94AE6C11A08CCB00F313CF /* fontclockPrefsController.h */,
+				0D94AE6D11A08CCB00F313CF /* fontclockPrefsController.m */,
+				0D69B33611A02F610097F912 /* fontclockAppDelegate.h */,
+				0D69B33711A02F610097F912 /* fontclockAppDelegate.m */,
+				0D69B33811A02F610097F912 /* fontclockViewController.h */,
+				0D69B33911A02F610097F912 /* fontclockViewController.m */,
+				0D69B43811A04BE90097F912 /* fontclockDateView.h */,
+				0D69B43911A04BE90097F912 /* fontclockDateView.m */,
+				0D94AC5511A06E2200F313CF /* fontclockDateFormatter.h */,
+				0D94AC5611A06E2200F313CF /* fontclockDateFormatter.m */,
+				0D69B33A11A02F610097F912 /* main.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Font Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				0D69B33511A02F610097F912 /* src */,
+				0D69B33011A02F5C0097F912 /* rsrc */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* fontclock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fontclock" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fontclock;
+			productName = fontclock;
+			productReference = 1D6058910D05DD3D006BFB54 /* Font Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "fontclock" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* fontclock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D69B33311A02F5C0097F912 /* fontclockViewController.xib in Resources */,
+				0D69B33411A02F5C0097F912 /* MainWindow.xib in Resources */,
+				0D94B16811A0B60B00F313CF /* bentologo.png in Resources */,
+				0D94B19811A0B7CD00F313CF /* fontclockAboutController.xib in Resources */,
+				0D94B3F811A0D8C200F313CF /* swatchoff.png in Resources */,
+				0D94B3F911A0D8C200F313CF /* swatchon.png in Resources */,
+				0D94B4E411A0F63200F313CF /* swatchoff-white.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D69B33B11A02F610097F912 /* fontclockAppDelegate.m in Sources */,
+				0D69B33C11A02F610097F912 /* fontclockViewController.m in Sources */,
+				0D69B33D11A02F610097F912 /* main.m in Sources */,
+				0D69B43A11A04BE90097F912 /* fontclockDateView.m in Sources */,
+				0D94AC5711A06E2200F313CF /* fontclockDateFormatter.m in Sources */,
+				0D94AE6E11A08CCB00F313CF /* fontclockPrefsController.m in Sources */,
+				0D94B18F11A0B75400F313CF /* fontclockAboutController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = fontclock.xcodeproj/prefix.pch;
+				INFOPLIST_FILE = fontclock.xcodeproj/Info.plist;
+				PRODUCT_NAME = "Font Clock";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = fontclock.xcodeproj/prefix.pch;
+				INFOPLIST_FILE = fontclock.xcodeproj/Info.plist;
+				PRODUCT_NAME = "Font Clock";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fontclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "fontclock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

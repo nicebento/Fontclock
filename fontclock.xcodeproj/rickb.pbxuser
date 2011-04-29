@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	0D69B30B11A02F1D0097F912 /* fontclock */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = fontclock;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0D69B31B11A02F210097F912 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0D69B31C11A02F210097F912 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0D69B33611A02F610097F912 /* fontclockAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1066, 771}}";
+			sepNavSelRange = "{167, 0}";
+			sepNavVisRange = "{0, 446}";
+			sepNavWindowFrame = "{{188, 152}, {1125, 847}}";
+		};
+	};
+	0D69B33711A02F610097F912 /* fontclockAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 600}}";
+			sepNavSelRange = "{1235, 0}";
+			sepNavVisRange = "{30, 1353}";
+			sepNavWindowFrame = "{{27, 407}, {722, 618}}";
+		};
+	};
+	0D69B33811A02F610097F912 /* fontclockViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {685, 705}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 832}";
+			sepNavWindowFrame = "{{349, 247}, {744, 781}}";
+		};
+	};
+	0D69B33911A02F610097F912 /* fontclockViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1083, 2016}}";
+			sepNavSelRange = "{3953, 0}";
+			sepNavVisRange = "{2957, 2125}";
+			sepNavWindowFrame = "{{199, 199}, {1142, 829}}";
+		};
+	};
+	0D69B33A11A02F610097F912 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {657, 688}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 356}";
+			sepNavWindowFrame = "{{61, 217}, {716, 764}}";
+		};
+	};
+	0D69B43811A04BE90097F912 /* fontclockDateView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {657, 665}}";
+			sepNavSelRange = "{222, 5}";
+			sepNavVisRange = "{0, 367}";
+			sepNavWindowFrame = "{{713, 4}, {716, 764}}";
+		};
+	};
+	0D69B43911A04BE90097F912 /* fontclockDateView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 780}}";
+			sepNavSelRange = "{497, 0}";
+			sepNavVisRange = "{0, 1790}";
+			sepNavWindowFrame = "{{373, 189}, {1056, 831}}";
+		};
+	};
+	0D94AC5511A06E2200F313CF /* fontclockDateFormatter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {997, 732}}";
+			sepNavSelRange = "{292, 0}";
+			sepNavVisRange = "{0, 299}";
+			sepNavWindowFrame = "{{350, 102}, {1056, 831}}";
+		};
+	};
+	0D94AC5611A06E2200F313CF /* fontclockDateFormatter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 1632}}";
+			sepNavSelRange = "{1856, 0}";
+			sepNavVisRange = "{1047, 1869}";
+			sepNavWindowFrame = "{{507, 102}, {1102, 868}}";
+		};
+	};
+	0D94AE6C11A08CCB00F313CF /* fontclockPrefsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 792}}";
+			sepNavSelRange = "{292, 0}";
+			sepNavVisRange = "{0, 868}";
+			sepNavWindowFrame = "{{578, 64}, {1102, 868}}";
+		};
+	};
+	0D94AE6D11A08CCB00F313CF /* fontclockPrefsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 5508}}";
+			sepNavSelRange = "{3396, 0}";
+			sepNavVisRange = "{1400, 2620}";
+			sepNavWindowFrame = "{{259, 90}, {1102, 924}}";
+		};
+	};
+	0D94B16711A0B60B00F313CF /* bentologo.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 108}, {1196, 852}}";
+		};
+	};
+	0D94B18D11A0B75400F313CF /* fontclockAboutController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 848}}";
+			sepNavSelRange = "{235, 8}";
+			sepNavVisRange = "{0, 267}";
+			sepNavWindowFrame = "{{38, 78}, {1102, 924}}";
+		};
+	};
+	0D94B18E11A0B75400F313CF /* fontclockAboutController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1043, 848}}";
+			sepNavSelRange = "{330, 0}";
+			sepNavVisRange = "{0, 337}";
+			sepNavWindowFrame = "{{61, 57}, {1102, 924}}";
+		};
+	};
+	0D94B3F611A0D8C200F313CF /* swatchoff.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{222, 66}, {1044, 768}}";
+		};
+	};
+	0D94B3F711A0D8C200F313CF /* swatchon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{199, 87}, {1044, 768}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* fontclock */ = {
+		activeExec = 0;
+		executables = (
+			0D69B30B11A02F1D0097F912 /* fontclock */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0D69B30B11A02F1D0097F912 /* fontclock */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* fontclock */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* fontclock */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 0D69B31C11A02F210097F912 /* Code sense */;
+		executables = (
+			0D69B30B11A02F1D0097F912 /* fontclock */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					57.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					10,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 295882338;
+			PBXWorkspaceStateSaveDate = 295882338;
+		};
+		sourceControlManager = 0D69B31B11A02F210097F912 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
